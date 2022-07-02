@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Playball";
+  src: url("../fonts/playball.woff");
+}
+
+body {
+  font-family: "Playball";
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+header h1,
+footer {
+  background-color: #e64d19;
+  color: white;
+}
+
+header h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0.625rem;
+  padding-bottom: 2.5rem;
+}
+
+main {
+  border: solid 0.35rem #ff6633;
+  margin: 3.15rem 5%;
+  border-top: none;
+  border-bottom: none;
+}
+
+article.siglo article {
+  margin: 1.85rem 6.7rem;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+article h2,
+article h3 {
+  background-color: #ff6633;
+  color: white;
+  padding-left: 0.6rem;
+  font-size: 1.75rem;
+}
+
+article.siglo h2 {
+  font-size: 2.25rem;
+}
+
+article.siglo {
+  background-color: #ffd9cc;
+  margin: 3.125rem 4.188rem;
+  padding-bottom: 1.5rem;
+}
+
+article p {
+  margin: 1.5rem;
+  padding-left: 0.35rem;
+}
+
+aside {
+  float: right;
+  padding: 0.45rem 3rem;
+  border-left: 0.35rem solid #ff6633;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  margin-bottom: 2rem;
+  padding: 0.3rem;
+}
